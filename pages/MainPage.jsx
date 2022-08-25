@@ -26,11 +26,12 @@ const MainPage = () => {
     <div className='h-screen overflow-x-hidden'>
         {/* Add A Text Bar */}
         <InputBar handleChange = {handleChange} text = {text}/>
-        <div className="flex h-1/2 w-screen my-10">
-        {/* main tweet area */}
+        <div className="flex flex-col md:flex-row h-1/2 w-screen my-10">
+          {/* main tweet area */}
           <TweetDisplay  text = {text} color = {color} name = {name} handle = {handle}/>
-        {/* tweet settings area */}
-        <Settings handleNameChange={handleNameChange} handleHandleChange={handleHandleChange} setColor = {setColor} color = {color}/>
+          {/* tweet settings area */}
+          <Settings handleNameChange={handleNameChange} handleHandleChange={handleHandleChange} setColor = {setColor} color = {color}/>
+
         </div>
     </div>
   )

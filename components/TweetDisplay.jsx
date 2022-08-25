@@ -3,7 +3,7 @@ import React from 'react'
 const TweetDisplay = (props) => {
   console.log(props.color)
   return (
-    <div className=' w-1/2 bg-gradient-to-br flex items-center justify-center rounded-md p-2' style={{background: props.color}}>
+    <div className=' w-1/2 bg-gradient-to-br flex items-center justify-center rounded-md p-2 h-4/5 md:h-auto' style={{background: props.color}}>
         <div className='shadow-2xl w-4/5 h-4/5 m-auto flex backdrop-blur-lg flex-col p-5'>
           <div className='flex flex-col'>
             <div className='flex items-center'>
