@@ -18,7 +18,7 @@ const TweetDisplay = (props) => {
           </div>
           <div className='flex my-5 mx-14 h-full '>
             <h2 className='text-center font-inter text-lg'>
-              {props.text}
+              {props.text? props.text : "Enter Text to make your new tweet"}
             </h2>
           </div>
         </div>

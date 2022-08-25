@@ -1,7 +1,6 @@
 import React, { useState } from 'react'
 import InputBar from '../components/InputBar'
 import TweetDisplay from '../components/TweetDisplay'
-import Image from 'next/dist/client/image'
 import Settings from '../components/Settings'
 
 const MainPage = () => {
