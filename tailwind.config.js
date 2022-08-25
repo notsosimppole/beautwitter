@@ -9,6 +9,7 @@ module.exports = {
         nunito: ['Nunito'],
         poppins: ['Poppins'],
         raleway: ['Raleway'],
+        inter: ['Inter'],
       }
     },
   },
